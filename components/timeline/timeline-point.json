@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_timeline_timeline_points",
+  "info": {
+    "name": "timelinePoint",
+    "icon": "map-pin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-links"
+    },
+    "dateHere": {
+      "type": "string"
+    }
+  }
+}
