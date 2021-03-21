@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_timeline_sections",
+  "info": {
+    "name": "timelineSection",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "timelinePoint": {
+      "type": "component",
+      "repeatable": true,
+      "component": "timeline.timeline-point"
+    },
+    "belowTimeline": {
+      "type": "text"
+    },
+    "belowTimelineLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-links"
+    }
+  }
+}

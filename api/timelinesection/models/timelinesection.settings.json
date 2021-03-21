@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "timelinesections",
+  "info": {
+    "name": "timelineSection",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "timeline.timeline-point"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionSubTitle": {
+      "type": "text"
+    },
+    "belowText": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-links"
+    }
+  }
+}
