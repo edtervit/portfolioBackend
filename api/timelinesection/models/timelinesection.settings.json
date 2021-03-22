@@ -25,10 +25,11 @@
     "belowText": {
       "type": "text"
     },
-    "link": {
-      "type": "component",
-      "repeatable": true,
-      "component": "project.project-links"
+    "imgLink": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
     }
   }
 }
