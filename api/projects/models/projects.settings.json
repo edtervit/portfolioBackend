@@ -63,6 +63,9 @@
     "personal": {
       "type": "boolean",
       "default": false
+    },
+    "Order": {
+      "type": "integer"
     }
   }
 }
