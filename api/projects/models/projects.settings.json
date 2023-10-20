@@ -66,6 +66,9 @@
     },
     "Order": {
       "type": "integer"
+    },
+    "video_url": {
+      "type": "string"
     }
   }
 }
